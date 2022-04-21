@@ -16,7 +16,7 @@ int main()
 
     if(data == NULL)
     {
-        printf("\nError!!! memorija nije allocirana.");
+        printf("\nError!!! memorija nije alocirana.");
         exit(0);
     }
 
@@ -34,7 +34,7 @@ int main()
            *data = *(data + i);
     }
 
-    printf("\nnajveci element = %.2f\n", *data);
+    printf("\nNajveci element = %.2f\n", *data);
 
     return 0;
 }
